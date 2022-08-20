@@ -23,7 +23,7 @@ export const DivCalculadora = styled.div`
 
 export const DivPeso = styled.div`
     display: flex;
-    width: 40%;
+    width: 14em;
     justify-content: space-between;
     font-size: 24px;
     margin-bottom: 10px;
@@ -45,14 +45,14 @@ export const Resultado = styled.p`
     @media (max-width: 415px){
         font-size: 1.5em;
     }
-    @media (max-width: 281px){
-        font-size: 1.2em;
+    @media (max-width: 361px){
+        font-size: 1.1em;
     }
 `;
 
 export const Calcular = styled.button`
     margin-top: 40px;
-    width: 42%;
+    width: 11.5em;
     color: white;
     background: #F7B718;
     border-radius: 4px;
@@ -65,6 +65,7 @@ export const Calcular = styled.button`
     height: 60px;
     @media (max-width: 281px){
         font-size: 26px;
+        width: 9em;
     }
 `;
 
@@ -72,7 +73,7 @@ export const DivAltura = styled.div`
     display: flex;
     margin-top: 48px;
     margin-bottom: 10px;
-    width: 40%;
+    width: 14em;
     justify-content: space-between;
     font-size: 24px;
     p{
